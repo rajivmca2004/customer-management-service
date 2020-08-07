@@ -6,19 +6,12 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 
-import lombok.Data;
-import lombok.EqualsAndHashCode;
-import lombok.NoArgsConstructor;
-import lombok.ToString;
 /**
  * @author rasrivastava
  *
  */
 @SuppressWarnings("unused")
 @Entity
-@Data
-@EqualsAndHashCode (exclude = "id")
-@ToString
 public class Customer {
 	
 	@Id
